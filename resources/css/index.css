@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.accordion-button {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 500px; /* Adjust based on the desired height */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 18px;
+    }
+
+    .carousel-item img {
+        max-height: 300px; /* Adjust for smaller screens */
+    }
+}
